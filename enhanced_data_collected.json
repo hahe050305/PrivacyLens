@@ -1,0 +1,226 @@
+[
+  {
+    "app_name": "Instagram",
+    "app_id": "com.instagram.android",
+    "collected": [
+      "Location",
+      "Contacts",
+      "Photos",
+      "Usage Data",
+      "Device Info",
+      "Search History"
+    ],
+    "shared_with": [
+      "Advertisers",
+      "Analytics Providers",
+      "Affiliates"
+    ],
+    "encrypted": true,
+    "optional": false,
+    "purpose": [
+      "Advertising",
+      "Analytics",
+      "App Functionality"
+    ],
+    "retention_period": "Indefinite",
+    "user_control": true,
+    "third_party_sdk_count": 12,
+    "policy_url": "https://help.instagram.com/519522125107875"
+  },
+  {
+    "app_name": "WhatsApp",
+    "app_id": "com.whatsapp",
+    "collected": [
+      "Phone Number",
+      "Contacts",
+      "Location",
+      "Device Info"
+    ],
+    "shared_with": [
+      "Facebook Companies"
+    ],
+    "encrypted": true,
+    "optional": true,
+    "purpose": [
+      "App Functionality",
+      "Security"
+    ],
+    "retention_period": "Until account deletion",
+    "user_control": false,
+    "third_party_sdk_count": 6,
+    "policy_url": "https://www.whatsapp.com/legal/privacy-policy"
+  },
+  {
+    "app_name": "Facebook",
+    "app_id": "com.facebook.katana",
+    "collected": [
+      "Location",
+      "Usage Data",
+      "Device Info",
+      "Financial Info",
+      "Contacts"
+    ],
+    "shared_with": [
+      "Advertisers",
+      "Analytics Firms"
+    ],
+    "encrypted": false,
+    "optional": false,
+    "purpose": [
+      "Advertising",
+      "Personalization",
+      "Analytics"
+    ],
+    "retention_period": "Indefinite",
+    "user_control": false,
+    "third_party_sdk_count": 18,
+    "policy_url": "https://www.facebook.com/policy.php"
+  },
+  {
+    "app_name": "Snapchat",
+    "app_id": "com.snapchat.android",
+    "collected": [
+      "Photos",
+      "Camera Access",
+      "Location",
+      "Usage Data"
+    ],
+    "shared_with": [
+      "Partners",
+      "Advertisers"
+    ],
+    "encrypted": true,
+    "optional": true,
+    "purpose": [
+      "Messaging",
+      "Analytics",
+      "Advertising"
+    ],
+    "retention_period": "Variable",
+    "user_control": true,
+    "third_party_sdk_count": 10,
+    "policy_url": "https://snap.com/en-US/privacy/privacy-policy"
+  },
+  {
+    "app_name": "Twitter",
+    "app_id": "com.twitter.android",
+    "collected": [
+      "Tweets",
+      "Usage Data",
+      "Location",
+      "Device Info"
+    ],
+    "shared_with": [
+      "Analytics Partners",
+      "Advertisers"
+    ],
+    "encrypted": false,
+    "optional": false,
+    "purpose": [
+      "Analytics",
+      "Advertising"
+    ],
+    "retention_period": "Until account deletion",
+    "user_control": true,
+    "third_party_sdk_count": 8,
+    "policy_url": "https://twitter.com/en/privacy"
+  },
+  {
+    "app_name": "LinkedIn",
+    "app_id": "com.linkedin.android",
+    "collected": [
+      "Employment Info",
+      "Usage Data",
+      "Device Info",
+      "Search History"
+    ],
+    "shared_with": [
+      "Recruiters",
+      "Advertisers"
+    ],
+    "encrypted": true,
+    "optional": false,
+    "purpose": [
+      "Recruitment",
+      "Analytics",
+      "Advertising"
+    ],
+    "retention_period": "Until account deletion",
+    "user_control": true,
+    "third_party_sdk_count": 9,
+    "policy_url": "https://www.linkedin.com/legal/privacy-policy"
+  },
+  {
+    "app_name": "Messenger",
+    "app_id": "com.messenger",
+    "collected": [
+      "Contacts",
+      "Messages",
+      "Device Info",
+      "Location"
+    ],
+    "shared_with": [
+      "Facebook Companies"
+    ],
+    "encrypted": true,
+    "optional": true,
+    "purpose": [
+      "Messaging",
+      "Security",
+      "Analytics"
+    ],
+    "retention_period": "Variable",
+    "user_control": false,
+    "third_party_sdk_count": 7,
+    "policy_url": "https://www.messenger.com/privacy"
+  },
+  {
+    "app_name": "TikTok",
+    "app_id": "com.tiktok.android",
+    "collected": [
+      "Camera Access",
+      "Location",
+      "Usage Data",
+      "Biometric Info"
+    ],
+    "shared_with": [
+      "Advertisers",
+      "Partners"
+    ],
+    "encrypted": false,
+    "optional": false,
+    "purpose": [
+      "Content Personalization",
+      "Advertising",
+      "Analytics"
+    ],
+    "retention_period": "Indefinite",
+    "user_control": false,
+    "third_party_sdk_count": 14,
+    "policy_url": "https://www.tiktok.com/legal/privacy-policy"
+  },
+  
+  {
+    "app_name": "ShareChat",
+    "app_id": "com.sharechat.app",
+    "collected": [
+      "Usage Data",
+      "Camera Access",
+      "Contacts",
+      "Location"
+    ],
+    "shared_with": [
+      "Third Parties"
+    ],
+    "encrypted": true,
+    "optional": true,
+    "purpose": [
+      "Personalization",
+      "Analytics"
+    ],
+    "retention_period": "Until account deletion",
+    "user_control": true,
+    "third_party_sdk_count": 6,
+    "policy_url": "https://sharechat.com/privacy-policy"
+  }
+]
