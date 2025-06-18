@@ -13,7 +13,6 @@ def load_data():
 
 data = load_data()
 
-# ------------------ CSS ------------------
 st.markdown("""
 <style>
     body {
@@ -99,16 +98,14 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ------------------ Title ------------------
 st.markdown("""
 <h1 style='text-align:center;'>PrivacyLens</h1>
 <p style='text-align:center;'>Explore how your data is handled by trending social apps in India</p>
 """, unsafe_allow_html=True)
 
-# ------------------ Tabs ------------------
+
 tab = st.radio("", ["App-Wise View", "Data Collections", "Stay Protected"], horizontal=True)
 
-# ------------------ App-Wise View ------------------
 if tab == "App-Wise View":
     st.markdown("<h3 class='section-header'>App-Wise Privacy Details</h3>", unsafe_allow_html=True)
     app_names = sorted([app.get("app_name", app["app_id"]).capitalize() for app in data])
@@ -141,7 +138,6 @@ if tab == "App-Wise View":
                 st.markdown(f"<div class='app-card' style='background-color:{color};'><b>{key}</b><br>{val}</div>", unsafe_allow_html=True)
             st.markdown("</div>", unsafe_allow_html=True)
 
-# ------------------ Data Collection Visual ------------------
 elif tab == "Data Collections":
     st.markdown("<h3 style='text-align:center;'>App Data Collection Process</h3>", unsafe_allow_html=True)
     st.markdown("<p style='text-align:center;'>Understand how each app collects data — simplified for all users</p>", unsafe_allow_html=True)
@@ -260,7 +256,6 @@ elif tab == "Data Collections":
     else:
         st.info("Please select an app to view how it collects your data.")
 
-# ------------------ Stay Protected ------------------
 else:
     st.markdown("<h3 class='section-header'>Stay Protected: Tips & Tech News</h3>", unsafe_allow_html=True)
     st.markdown("""
@@ -284,7 +279,6 @@ else:
     for title, link in news:
         st.markdown(f"- [{title}]({link})")
 
-# ------------------ Footer ------------------
 st.markdown("""
 <div class="footer">
     © 2025 PrivacyLens. All rights reserved.
